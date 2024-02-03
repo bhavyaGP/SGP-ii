@@ -1,0 +1,27 @@
+{
+    "name": "Amit Acharyya",
+    "position": "Professor",
+    "department(s)": [
+        "Electrical Engineering",
+        "Artificial Intelligence"
+    ],
+    "ph.d": "University of Southhampton",
+    "research interests": [
+        "VLSI systems resource-constrained applications",
+        "Low Power Design Techniques",
+        "Machine learning hardware design",
+        "Signal Processing Algorithm and VLSI Architectures",
+        "Digital Arithmetic",
+        "Biomedical Devices",
+        "AI/ML",
+        "Nanoscience & Technology"
+    ],
+    "office address": [
+        "Academic Block C",
+        "Indian Institute of Technology Hyderabad",
+        "Kandi-502284, Sangareddy",
+        "Telangana, India"
+    ],
+    "e-mail": "",
+    "office phone": "(040) 2301 - 6462"
+}
