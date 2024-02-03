@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import json
 
 # Specify the directory path where you want to save the JSON files
-output_directory = r"C:\Users\91878\Documents\22CE103\SGP-2\MentorPedia\Trying\jsonfiles"
+output_directory = r"C:\Users\91878\Documents\22CE103\SGP-2\MentorPedia\Src\jsonfiles"
 
 url = "https://www.iith.ac.in/people/faculty/"
 request = requests.get(url)
