@@ -94,11 +94,13 @@
                                             <%= data2.docs[i].position %>
                                         </p>
                                         <ul class="list-unstyled">
-                                            <li>Email: <%= data2.docs[i].email[0] %>
+                                            
+
+                                            <!-- <li>Email: <%= data2.docs[i].email %> </li> -->
+                                            <!-- <li>Department: <%= data2.docs[i].dept %> -->
+                                            <li>Department: <%= data2.docs[i].department_s_ %>
                                             </li>
-                                            <li>Department: <%= data2.docs[i].dept %>
-                                            </li>
-                                            <li>College: <%= data2.docs[i]['college'] %>
+                                            <li>office_phone: <%= data2.docs[i].office_phone %>
                                             </li>
                                         </ul>
 
@@ -109,9 +111,11 @@
                                             <hr>
                                             <p>Research Areas:</p>
                                             <ul>
-                                                <% for (var j=0; j < data2.docs[i].research_areas.length; j++) { %>
+                                                <!-- research_interests -->
+                                                <!-- research_areas --> 
+                                                <% for (var j=0; j < data2.docs[i].research_interests.length; j++) { %>
                                                     <li>
-                                                        <%= data2.docs[i].research_areas[j] %>
+                                                        <%= data2.docs[i].research_interests[j] %>
                                                     </li>
                                                     <% } %>
                                             </ul>
